@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/news/static/css/main.87b00609.css",
+    "main.js": "/news/static/js/main.17ef8b8f.js",
+    "static/js/453.2e21f99f.chunk.js": "/news/static/js/453.2e21f99f.chunk.js",
+    "static/media/stretched-1920-1200-1314571.jpeg": "/news/static/media/stretched-1920-1200-1314571.d85f039ff850e9e8029f.jpeg",
+    "static/media/fa-solid-900.ttf": "/news/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/فيلم-Expend4bles-2023-مترجم-كوفر.jpg": "/news/static/media/فيلم-Expend4bles-2023-مترجم-كوفر.a6e32441e4a02f18b209.jpg",
+    "static/media/15.jpg": "/news/static/media/15.93f4e5ba2136fb5e6dac.jpg",
+    "static/media/Barbie_2023_movie_logo.png": "/news/static/media/Barbie_2023_movie_logo.4dafecd7e766174edff3.png",
+    "static/media/fa-brands-400.ttf": "/news/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/news/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/فيلم-Expend4bles-2023-مترجم-لوجو-1.png": "/news/static/media/فيلم-Expend4bles-2023-مترجم-لوجو-1.ca1c7e8b08b845b12874.png",
+    "static/media/fa-brands-400.woff2": "/news/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/fa-regular-400.ttf": "/news/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/fa-regular-400.woff2": "/news/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/Oppenheimer_Movie_Logo_2023-1.png": "/news/static/media/Oppenheimer_Movie_Logo_2023-1.0b52681461aedadca7d5.png",
+    "static/media/fa-v4compatibility.ttf": "/news/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/news/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "index.html": "/news/index.html",
+    "main.87b00609.css.map": "/news/static/css/main.87b00609.css.map",
+    "main.17ef8b8f.js.map": "/news/static/js/main.17ef8b8f.js.map",
+    "453.2e21f99f.chunk.js.map": "/news/static/js/453.2e21f99f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87b00609.css",
+    "static/js/main.17ef8b8f.js"
+  ]
+}
