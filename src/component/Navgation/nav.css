@@ -4,12 +4,25 @@ nav {
   color: #fff;
   padding: 12px;
   /* overflow: hidden; */
+  width: 100%;
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 2000000;
+  transition: top 0.5s ease-in-out, left 0.5s ease-in-out;
 }
-ul {
+.icons {
   list-style: none;
+  position: relative;
+  overflow: hidden;
+  width: 56.5%;
+  text-align: center;
 }
-
-.left .icon li {
+.left {
+  display: flex;
+  justify-content: flex-start;
+}
+.left .icons li {
   display: inline-block;
   margin-left: 10px;
   border: 1px solid #fff;
@@ -19,11 +32,11 @@ ul {
   transition: 0.3s ease-in-out;
   text-align: center;
 }
-.left .icon li:hover {
+.left .icons li:hover {
   background-color: #0866ff;
   transition: 0.3s ease-in-out;
 }
-.left .icon li box-icon {
+.left .icons li box-icon {
   margin: 5px;
 }
 
@@ -33,6 +46,8 @@ ul {
   justify-content: end;
   margin-right: 35px;
   flex-wrap: nowrap;
+  z-index: 999999999;
+  text-align: center;
 }
 .right .logo {
   margin-left: 30px;
@@ -148,7 +163,46 @@ ul {
     background-color: #2e3545;
     padding-top: 11px;
   }
+  .left {
+    text-align: center;
+    margin: auto;
+  }
+  .icons {
+    width: 82%;
+  }
 }
 .move {
   right: 0;
+}
+.menu {
+  z-index: 9999;
+  background-color: #2a3140;
+}
+.ziad {
+  margin: 5px 0;
+}
+
+.searchbtn {
+  background-color: transparent;
+}
+.fixednav {
+  position: fixed;
+  width: 100%;
+
+  z-index: 548545145 5;
+  transition: 0.5 ease-in-out;
+}
+.row {
+  padding: 0 !important;
+}
+.input input[type="text"] {
+  background-color: #fff;
+  border: none;
+  border-bottom: 2px solid rgb(0, 0, 0) !important;
+}
+.input input[type=text]:focus {
+  border: none;
+}
+ul{
+  list-style: none;
 }

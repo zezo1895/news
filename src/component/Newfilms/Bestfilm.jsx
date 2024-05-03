@@ -11,11 +11,11 @@ const Bestfilm = (props) => {
   //       </Fragment>
   //     )
   //       })
-  const filmitem = props.ones.filter((one) => one.rate > 7);
+  const filmitem = props.ones.filter((one) => one.rate > 8);
   const bests = filmitem.map((movie) => {
     return (
       <Fragment>
-        <Productfilm name={movie.name} url={movie.image} rate={movie.rate} />
+        <Productfilm name={movie.name} url={movie.image} rate={movie.rate} id={movie.id} />
       </Fragment>
     );
   });

@@ -4,6 +4,7 @@ import "../Newfilms/Newfilms.css"
 import "boxicons"
 import Productfilm from "./Productfilm";
 import Bestfilm from "./Bestfilm";
+import Pagenation from "../Pagenation";
 
 
 
@@ -21,7 +22,7 @@ const Newfilms=(props)=>{
   const filmitem=props.new.map((movie)=>{
  return(
   <Fragment>
-   <Productfilm name={movie.name} url={movie.image} rate={movie.rate} />
+   <Productfilm name={movie.name} url={movie.image} rate={movie.rate} id={movie.id} />
    
    </Fragment>
  )
@@ -29,13 +30,13 @@ const Newfilms=(props)=>{
  
 return(
     <div className="allfilmss">
-        <div className="container-fluid another">
+        <div className="container another">
             <h1>NEW FILMS</h1>
             <div className="row">{filmitem}
    
             </div>
                
-         
+         <Pagenation getpage={props.getpage} page={props.page}  fetchmoive={props.fetchmoive} />
         </div>
     </div>
 )

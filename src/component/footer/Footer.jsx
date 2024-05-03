@@ -6,10 +6,10 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="container-fluid">
-        <div className="row">
-          <div className="col-lg-4">
+        <div className="row ">
+          <div className="col-lg-12 ">
             <div className="lastlinks">
-              <ul className="contact d-flex justify-content-center">
+              <ul className="contacts d-flex justify-content-center">
                 <li>
                   <a className="linkfooter1" href="">
                     <i class="fa-brands fa-instagram"></i>
@@ -27,14 +27,29 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-          </div>
-          <div className="col-lg-4 d-flex justify-content-center">
-            <div className="dev">
-              by <span><i class="fa-sharp fa-solid fa-heart heart"></i>  ZIAD ADEL</span>
-            </div>{" "}
-          </div>
-          <div className="col-lg-4 justify-content-center">
-            <div className="thanks"> <i class="fa-sharp fa-solid fa-heart heart"></i>ENG/Mohamed Elrafey</div>
+            <div className=" d-flex justify-content-center">
+              <a href="/">
+                <div className="logoo">
+                  <div className="en">
+                    <div className="s1">Arab </div>{" "}
+                    <div className="s2"> Lionz </div>
+                  </div>
+                  <div className="ar">
+                    <div className="s3">ليونز</div>{" "}
+                    <div className="s4">عرب</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <hr className="line" />
+            <div className=" d-flex justify-content-center">
+              <div className="copy color-#fff">
+                <span>
+                  by<i class="fa-solid fa-heart"></i>Ziad Adel
+                </span>
+              </div>
+            </div>
           </div>
         </div>
       </div>

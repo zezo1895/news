@@ -9,8 +9,9 @@ const Home = (props) => {
 return(
   <Fragment>
     <Landing />
+    <Newfilms new={props.ones} getpage={props.getpage} page={props.page}  fetchmoive={props.fetchmoive}  />
     <Bestfilm ones={props.ones} />
-    <Newfilms new={props.ones} />
+   
   
   
   </Fragment>

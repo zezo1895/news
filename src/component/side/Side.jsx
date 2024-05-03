@@ -5,13 +5,11 @@ import { click } from "@testing-library/user-event/dist/click";
 
 const show = () => {
   if (window.innerWidth < 992) {
-    console.log("zaid");
     document.querySelector(".typefilm").classList.toggle("show");
   }
 };
 const show2 = () => {
   if (window.innerWidth < 992) {
-    console.log("looooooo");
     document.querySelector(".typeser").classList.toggle("show");
   }
 };
@@ -53,15 +51,14 @@ const Side = (props) => {
     };
   }, []);
 
-  
-const className = props.change ? 'active-class' : 'inactive-class';
+  const className = props.change ? "active-class" : "inactive-class";
   return (
     <sidenav className={className}>
-      <div className="container-fluid">
+      <div className="container-fluid ">
         <h1 className="font-weight-bold">
           Arab <span>Lionz</span>
         </h1>
-        <div className="all">
+        <div className="all d-flex justify-content-center align-items-center">
           <ul className="types">
             <li className="films">
               <button className="border-0 drop" onClick={show}>
@@ -94,10 +91,7 @@ const className = props.change ? 'active-class' : 'inactive-class';
                 <li>fathy</li>
               </ul>
             </li>
-            <li>
-              {" "}
-              by <span>Ziad Adel {props.change}</span>
-            </li>
+            <li> by Ziad Adel</li>
           </ul>
         </div>
       </div>
